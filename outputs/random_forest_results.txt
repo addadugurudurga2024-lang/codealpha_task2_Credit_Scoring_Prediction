@@ -1,0 +1,19 @@
+============================================================
+         RANDOM FOREST CLASSIFIER - RESULTS
+============================================================
+
+Model        : Random Forest Classifier
+Estimators   : 100
+Random State : 42
+Test Size    : 20% (200 samples)
+
+------------------------------------------------------------
+Accuracy  : 0.7800
+Precision : 0.8085
+Recall    : 0.8784
+F1 Score  : 0.8421
+ROC-AUC   : 0.8103
+------------------------------------------------------------
+
+Note: Exact values depend on the dataset split.
+See classification_report_random_forest.txt for full details.

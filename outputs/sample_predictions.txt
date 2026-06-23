@@ -1,0 +1,40 @@
+============================================================
+               SAMPLE PREDICTIONS
+============================================================
+
+------------------------------------------------------------
+SAMPLE CUSTOMER 1
+------------------------------------------------------------
+  Age : 45
+  Sex : 1 (male)
+  Job : 2
+  Housing : 1
+  Saving accounts  : 2
+  Checking account : 2
+  Credit amount    : 2000
+  Duration         : 12
+  Purpose          : 5
+
+  Logistic Regression  -> Good Credit Risk (1)
+  Random Forest        -> Good Credit Risk (1)
+
+------------------------------------------------------------
+SAMPLE CUSTOMER 2
+------------------------------------------------------------
+  Age : 22
+  Sex : 0 (female)
+  Job : 0
+  Housing : 2
+  Saving accounts  : 0
+  Checking account : 0
+  Credit amount    : 15000
+  Duration         : 60
+  Purpose          : 1
+
+  Logistic Regression  -> Bad Credit Risk (0)
+  Random Forest        -> Bad Credit Risk (0)
+
+------------------------------------------------------------
+Note: Encoded values used for categorical features.
+0 = Bad Credit Risk | 1 = Good Credit Risk
+------------------------------------------------------------
